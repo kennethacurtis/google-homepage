@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-size: 13px;
+  font-family: arial , sans-serif;
+}
+
+#nav-bar {
+  width: auto;
+  position: fixed;
+  top: 15px;
+  right: 30px;
+}
+
+#app-icon {
+  padding: 5px 18px;
+  position: relative;
+  top: 7px;
+}
+
+#signin {
+  padding: 7px 12px;
+  background-color: #4368f7;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+input {
+  width: 450px;
+  height: 30px;
+  margin: auto;
+  display: block;
+}
+
+div.formbox {
+  width: auto;
+  position: relative;
+  top: 200px;
+}
+
+#logo {
+  width: 350px;
+  margin: auto;
+  top: 200px;
+  position: relative;
+  padding: 0px 778px;
+}
+
+div.main {
+  width: auto;
+  position: relative;
+}
