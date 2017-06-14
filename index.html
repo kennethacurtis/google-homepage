@@ -5,19 +5,57 @@
     <title>Google</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
-
-  <div id="navbar">
+<body>
+  <div id="navbar" class="clearfix">
     <ul>
       <li><a href="#">Gmail</a></li>
       <li><a href="#">Images</a></li>
-      <li id="app-icon"><a href="#"></a></li>
-      <li id="notif-icon"><a href="#"></a></li>
-      <li id="prof-icon"><a href="#"></a></li>
+      <li><a id="app-icon" href="#"></a></li>
+      <li><a id="notif-icon" href="#"></a></li>
+      <li><a id="prof-icon" href="#"></a></li>
     </ul>
   </div>
 
-  <div class="main">
+  <div id="main" class="clearfix">
     <center>
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+      <div class="logo_wrapper">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+      </div>
     </center>
+    <center>
+      <div class="search">
+        <input id="input" type="text"></input>
+      </div>
+    </center>
+    <center>
+      <div class="buttons">
+        <button class="submit">
+          <span>Google Search</span>
+        </button>
+        <button class="submit">
+          <span>I'm Feeling Lucky</span>
+        </button>
+      </div>
+  </div>
+</body>
+  <footer class="footer">
+   <div class="container-left">
+     <span class="clear-text">
+       <ul>
+         <li><a href="#">Advertising</a></li>
+         <li><a href="#">Business</a></li>
+         <li><a href="#">About</a></li>
+       </ul>
+      </span>
+    </div>
+   <div class="container-right">
+    <span class="clear-text">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+     </span>
+    </div>
+   </footer>
 </html>
